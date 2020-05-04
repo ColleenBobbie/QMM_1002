@@ -12,3 +12,8 @@
   CorrectAnswer: 2 + 2
   AnswerTests: omnitest(correctExpr='2 + 2')
   Hint: Just type 2 + 2.
+- Class: cmd_question
+Output: Now let's get a little more complicated. How would I calculate the average for a variable named 'Expenses'?
+CorrectAnswer: mean(Expenses)
+AnswerTests: omnitest(correctExpr='mean(Expenses)')
+Hint: We can use the 'mean()' function to calculate an average.
